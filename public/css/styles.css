@@ -1,3 +1,13 @@
+html{
+  height:100%;
+}
+body{
+  min-height: 100%;
+  width: 100%;
+  
+ position: relative;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -34,17 +44,43 @@
   color: #fff;
 } */
 
-#outer {
+/* #outer {
     height: 200px;
     width: 200px;
     
     display: table-cell;
     vertical-align: bottom;
   }
-  
-  #inner {
+   */
+
+
+  /* #inner {
     text-align: center;
     height: 60px;
     width: 100%;
     background-color: #3777c1;
+  } */
+
+  #inner {
+    text-align: center;
+    
+    width: 100%;
+    background-color: #3777c1;
+    
+    margin:20px 0px 20px 0px;
+    
+  } 
+
+  #foot {
+    position: absolute;
+    bottom: 0;
+    background-color: #3777c1;
+    height: 70px;
+    width: 100%;
+    margin-top:10px;
+   
+  }
+
+  article {
+    margin-bottom: 120px;
   }
