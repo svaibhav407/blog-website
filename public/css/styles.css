@@ -1,3 +1,13 @@
+html{
+  height:100%;
+}
+body{
+  min-height: 100%;
+  width: 100%;
+  border: 3px solid red;
+ position: relative;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -18,7 +28,7 @@
 /* .footer-padding {
 	padding-bottom: 60px;
 } */
-
+ 
 /* .footer {
 	position: absolute;
 	text-align: center;
@@ -34,7 +44,7 @@
   color: #fff;
 } */
 
-#outer {
+/* #outer {
     height: 200px;
     width: 200px;
     
@@ -47,4 +57,18 @@
     height: 60px;
     width: 100%;
     background-color: #3777c1;
+  } */
+
+  #foot {
+    position: absolute;
+    bottom: 0;
+    background-color: #3777c1;
+    height: 70px;
+    width: 100%;
+    margin-top:10px;
+   
+  }
+
+  article {
+    margin-bottom: 120px;
   }
